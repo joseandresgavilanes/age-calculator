@@ -28,22 +28,22 @@ const Calendar = () => {
       <div class="container">
         <div class="clock-column">
           <p class="clock-day clock-timer"> {years} </p>
-          <p class="clock-label">Days</p>
+          <p class="clock-label">Years</p>
         </div>
 
         <div class="clock-column">
           <p class="clock-hours clock-timer"> {days} </p>
-          <p class="clock-label">Hours</p>
+          <p class="clock-label">Days</p>
         </div>
 
         <div class="clock-column">
           <p class="clock-minutes clock-timer"> {hours} </p>
-          <p class="clock-label">Minutes</p>
+          <p class="clock-label">Hours</p>
         </div>
 
         <div class="clock-column">
           <p class="clock-seconds clock-timer"> {minutes} </p>
-          <p class="clock-label">Seconds</p>
+          <p class="clock-label">Minutes</p>
         </div>
       </div>
     </>
